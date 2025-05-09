@@ -1,0 +1,22 @@
+# Node modules (if you're using any npm packages)
+node_modules/
+
+# Environment secrets handled by Wrangler
+.env
+.env.*
+
+# Wrangler configuration (if using wrangler.toml to store secrets or account info)
+# You may choose to keep this in version control if it doesn't contain sensitive data.
+wrangler.toml
+
+# Cloudflare Build/Deploy Cache
+.cache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
